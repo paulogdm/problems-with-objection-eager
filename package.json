@@ -1,0 +1,24 @@
+{
+  "name": "problems-with-objection-eager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulogdm/problems-with-objection-eager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulogdm/problems-with-objection-eager/issues"
+  },
+  "homepage": "https://github.com/paulogdm/problems-with-objection-eager#readme",
+  "dependencies": {
+    "knex": "^0.14.3",
+    "mariasql": "^0.2.6",
+    "objection": "^1.0.0"
+  }
+}
