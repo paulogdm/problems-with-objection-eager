@@ -1,4 +1,4 @@
 ```
 cd Models && knex migrate:latest
-cd .. && node
+cd .. && node index.js
 ```
