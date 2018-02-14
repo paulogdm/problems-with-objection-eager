@@ -1,3 +1,16 @@
+const { Model } = require('objection')
+const Knex = require('knex')
+
+const config = require('./Models/knexfile.js')['development']
+
+const knex = Knex({
+  client: 'mariasql',
+  connection: config.connection,
+  useNullAsDefault: true
+})
+
+Model.knex(knex)
+
 const Martian = require('./Models/Martian.js')
 const Thing = require('./Models/Thing.js')
 

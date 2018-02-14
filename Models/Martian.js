@@ -1,15 +1,4 @@
 const { Model } = require('objection')
-const Knex = require('knex')
-
-const config = require('./knexfile.js')['development']
-
-const knex = Knex({
-  client: 'mariasql',
-  connection: config.connection,
-  useNullAsDefault: true
-})
-
-Model.knex(knex)
 
 module.exports = class Martian extends Model {
   static get tableName () {
